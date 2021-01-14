@@ -1,0 +1,102 @@
+button {
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin: 10px 40px 20px 30px;
+
+    margin: 10px 30px 10px 30px;
+    margin: 10px 30px;
+
+
+    margin: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    margin: 10px; */
+    margin: 10px 20px 30px;
+    /* padding: ; */
+    /* px,%,em,rem,pt,sm */
+}
+
+.container {
+    /* border: 1px solid; */
+    max-width: 991px;
+    margin: 0 auto;
+    /* border-left: 2px solid red;
+    border-right: 10px dashed yellow;
+    border-top: 25px dotted green;
+    border-bottom: 50px double blue; */
+    /* width, style, color */
+    /* 
+    border-left-color: ;
+    border-left-width: ;
+    border-left-style: ;
+
+    border-right-color: ;
+    border-right-width: ;
+    border-right-style: ; */
+    border: 10px solid red;
+    border-radius: 10px;
+    /* border-right-color: transparent; */
+}
+
+button {
+    /* border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    padding: 20px;
+    background-color: #028789;
+    color: white;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-color: grey; */
+    /* width: 50px;
+    height: 50px;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    background-image: linear-gradient(red, yellow); */
+}
+
+.fredy-style {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    overflow: hidden;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg);
+    background-size: cover;
+    color: red;
+    /* opacity: .3; */
+}
+
+.fredy-style div {
+    opacity: 1!important;
+}
+
+.fredy-style {
+    position: relative;
+}
+
+.fredy-style div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.3;
+}
+
+.fredy-style div:first-child {
+    background-color: red;
+}
+
+.fredy-style div:nth-child(2) {
+    background-color: yellow;
+}
+
+.fredy-style div:last-child {
+    background-color: blue;
+}
+
+button {
+    min-width: 70px;
+}
